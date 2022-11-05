@@ -56,7 +56,8 @@ setuptools.setup(
     entry_points={
         'console_scripts': [
             'fitjson=fitdecode.cmd.fitjson:main',
-            'fittxt=fitdecode.cmd.fittxt:main']},
+            'fittxt=fitdecode.cmd.fittxt:main',
+            'fitcsv=fitdecode.cmd.fitcsv:main']},
 
     install_requires=[],
     extras_require={'docs': ['sphinx', 'sphinx_rtd_theme']},
